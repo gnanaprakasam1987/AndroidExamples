@@ -1,6 +1,6 @@
 package com.example.DaggerExample.BO;
 
-public class UserMasterBO {
+public class UserBO {
 
     private String mUserName;
     private String mPassword;
