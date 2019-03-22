@@ -70,12 +70,12 @@ public class RxJavaExampleActivity extends AppCompatActivity {
 
         userMasterBOArrayList.add(userMasterBO);
 
-        UserBO userMasterBO1 = new UserBO();
+        userMasterBO = new UserBO();
 
-        userMasterBO1.setmUserName("Android");
-        userMasterBO1.setmPassword("welcome123");
+        userMasterBO.setmUserName("Android");
+        userMasterBO.setmPassword("welcome123");
 
-        userMasterBOArrayList.add(userMasterBO1);
+        userMasterBOArrayList.add(userMasterBO);
 
 
         return  Observable.fromArray(userMasterBOArrayList);
