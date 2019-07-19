@@ -14,16 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.DaggerExample.RxJavaExampleActivity">
+        <activity android:name="com.example.RetrofitWithMVP.View.MoiveDetailActivity">
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
+        <activity android:name="com.example.ConstraintLayout.ConstraintLayoutExample" />
+        <!-- <activity android:name="com.example.FireBaseMessage.SampleNotificationActivity"></activity> -->
+
+      <!--  <activity android:name="com.example.RetrofitWithMVP.view.MoiveDetailActivity"></activity>-->
     </application>
 
 </manifest>
